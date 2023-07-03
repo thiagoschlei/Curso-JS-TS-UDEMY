@@ -1,0 +1,1 @@
+console.log('Olá, meu nome é "Thiago" e agora são',10,'horas da manhã!')
