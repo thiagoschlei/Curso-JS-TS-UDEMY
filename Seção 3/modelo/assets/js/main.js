@@ -3,9 +3,6 @@ function enviar() {
     const altura = document.getElementById('altura').value;
     let imc = (peso / (altura * altura));
 
-    console.log(peso)
-    console.log(altura)
-    console.log(imc)
     if (imc <= 18.5) {
         res.innerHTML = "Seu IMC é: "+imc.toFixed(2)+". Você está abaixo do peso.";
     } else if (imc >= 18.5 && imc <= 24.9) {
