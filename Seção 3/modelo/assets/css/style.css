@@ -26,6 +26,15 @@ body {
   border-radius: 10px;
 }
 
+.linha{
+  display: flex;
+  flex-flow: row wrap;
+  }
+  
+.coluna-50 {
+  width: 50%;
+}
+
 form input, form label, form button {
   display: block;
   width: 100%;
