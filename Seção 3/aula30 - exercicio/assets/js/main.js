@@ -8,6 +8,10 @@ const minuto = data.getMinutes();
 let diaSemanaTexto;
 let mesTexto;
 
+function zeroEsquerda(num){
+    return num >=10 ? num : `0${num}`
+}
+
 switch (diaSemana) {
     case 0:
         diaSemanaTexto = 'Domingo'
@@ -69,4 +73,4 @@ switch (mes) {
         mesTexto = 'Dezembro'
 }
 
-res.innerHTML = `${diaSemanaTexto}, ${diaMes} de ${mesTexto} de ${ano} ${hora}:${minuto}`
+res.innerHTML = `${diaSemanaTexto}, ${zeroEsquerda((diaMes))} de ${mesTexto} de ${ano} ${zeroEsquerda((hora))}:${zeroEsquerda((minuto))}`
