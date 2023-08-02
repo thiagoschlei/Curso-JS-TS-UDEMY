@@ -1,5 +1,3 @@
-let num = 101
-
 function verNum(num) {
     if (num % 3 === 0 && num % 5 === 0) {
         return "FizzBuzz"
