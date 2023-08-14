@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Modelo</title>
+  <title>Lista de Tarefas</title>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -13,10 +13,12 @@
 
   <section class="container">
     <h1>Lista de Tarefas</h1>
-    <p class="lista">
-      <input type="text" name="addTarefa" id="addTarefa" size="20" maxlength="30" placeholder="Tarefa">
-      <button>Adicionar tarefa</button>
+    <p>
+      <input type="text" name="addTarefa" class="input-tarefa" size="20" maxlength="30" placeholder="Tarefa">
+      <button class="btn-tarefa">Adicionar tarefa</button>
     </p>
+
+    <ul class="tarefas"></ul>
   </section>
 
   <script src="./assets/js/main.js"></script>
