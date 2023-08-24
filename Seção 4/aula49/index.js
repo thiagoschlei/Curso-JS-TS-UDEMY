@@ -15,5 +15,12 @@ souUmDado();
 const funcaoArrow = () => {
     console.log('Sou uma Arrow function');
 }
-
 funcaoArrow();
+
+// Dentro de um objeto
+const obj = {
+    falar() {
+        console.log("Estou falando...");
+    }
+}
+obj.falar();
